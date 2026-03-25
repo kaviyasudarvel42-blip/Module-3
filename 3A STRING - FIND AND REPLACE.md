@@ -1,30 +1,25 @@
-# Exp.No:3a
-## STRING - FIND AND REPLACE
-
----
+# Exp.No:2e  
+## SEB - COMPUTING POWER
 
 ### AIM  
-To write a Python function to accept a string, identify a word to be replaced, and replace it with a new word provided by the user.
-
----
+To write a Python program to compute the power of a given number using an appropriate built-in function.
 
 ### ALGORITHM
 
 1. Begin the program.  
-2. Input the original string `str1` and the word to be replaced `replace_str`.  
-3. Ask the user to input the new replacement word `str2`.  
-4. Use the `replace()` method in Python to replace all occurrences of `replace_str` in `str1` with `str2`.  
-5. Store the modified string in `str3`.  
-6. Display the original string (`str1`) and the modified string (`str3`).  
-7. Terminate the program.
-
----
+2. Input the base number (`base`) from the user.  
+3. Input the exponent number (`exp`) from the user.  
+4. Use the built-in `pow()` function to compute the base raised to the power of the exponent.  
+5. Print the result using the `print()` function, displaying the power in a formatted output.  
+6. Terminate the program.
 
 ### PROGRAM
-
-```
-```
+y=4
+z=pow(x,y)
+print(z)
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/5ec1e4eb-ebbf-4b7e-ba81-edbd53aaacd8)
 
 ### RESULT
+Thus the Python program to compute the power of a number using the built-in pow() function was executed successfully and the output was verified.
